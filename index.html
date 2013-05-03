@@ -123,10 +123,6 @@
             </nav>
         </div>
 
-        <div id="author">
-            video by <a href="http://vimeo.com/55881237">Caitlin Osbahr</a>
-        </div>
-
         <video id="bg" autoplay="autoplay" loop="loop">
             <source src="video/sd.webm" type="video/webm" />
             <source src="video/sd.mp4" type="video/mp4" />
@@ -146,7 +142,6 @@
                 if (window.mobilecheck()) {
                     $video.remove();
                     $('#wrapper nav').remove();
-                    $('#author').remove();
                 }
 
                 $('#video_button_mute').on('click', function(e) {
